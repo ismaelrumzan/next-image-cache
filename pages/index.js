@@ -10,7 +10,7 @@ export default function Home({image}) {
       alignItems: 'center',
     }}>
       <Image
-        src={image}
+        src="https://vercel-cse.s3.eu-central-1.amazonaws.com/imagecache.jpg"
         width={800}
         height={800}
       />
