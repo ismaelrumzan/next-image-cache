@@ -9,8 +9,9 @@ export default function Home({image}) {
       justifyContent: 'center',
       alignItems: 'center',
     }}>
+      <h3>{image}</h3>
       <Image
-        src={image}
+        src={encodeURI(image)}
         width={800}
         height={800}
       />
