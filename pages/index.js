@@ -21,8 +21,8 @@ export default function Home({image}) {
 export async function getStaticProps() {
   return {
     props: {
-        image: 'https://www.omnycontent.com/d/clips/f895e4af-2068-409d-a7a7-aa9201219358/7b085e6d-da03-47aa-9505-ab18012c208d/e0587960-22f2-4242-89ce-ab21013ef5f3/image.jpg',
+        image: 'https://vercel-cse.s3.eu-central-1.amazonaws.com/imagecache.jpg',
     },
-    revalidate: 60,
+    revalidate: 1,
   }
 }
